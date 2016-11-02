@@ -1,0 +1,23 @@
+git                     查看git是否安装成功
+mkdir                   新建文件夹
+touch a.md              新建a.md文件
+git status              查看当前库的状态
+git init                初始化git仓库
+git add.                添加文件到缓存区
+git commit -m"说明"     带描述提交
+git log                 查看所有commit记录
+git branch              查看当前分支
+git branch a            新建a分支
+git checkout a          切换a分支
+git checkout -b a       新建且切换到a分支
+git merge               合并分支（需切换到主分支）
+git tag
+ssh                     查看本机是否有ssh key
+ssh-keygen -t rsa       生成ssh秘钥
+git pull                拉取新代码
+git push                提交新代码
+git push origin master  在主分支提交代码
+git remote add origin   ？
+
+
+
