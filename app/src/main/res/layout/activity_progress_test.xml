@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:layout_height="match_parent">
+    <include
+        layout="@layout/common_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <com.testmanage.oldtest.view.CustomProgreeView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:firstColor="@color/black"
+        app:secondColor="@color/gray"
+        app:circleWidth="4dp"
+        app:speed="100"
+        android:layout_margin="50dp"
+        />
+
+    <com.testmanage.oldtest.view.CustomProgreeView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="50dp"
+        app:firstColor="@color/red"
+        app:secondColor="@color/green"
+        app:circleWidth="8dp"
+        app:speed="10"
+        />
+    <com.testmanage.oldtest.view.CustomLabaView
+        android:layout_width="150dp"
+        android:layout_marginLeft="20dp"
+        app:firstColor="@color/tra_05_black"
+        app:secondColor="@color/green"
+        app:circleWidth="10dp"
+        app:dotCount="10"
+        app:splitSize="20"
+        app:bg="@mipmap/meinv"
+        android:layout_height="150dp" />
+</LinearLayout>

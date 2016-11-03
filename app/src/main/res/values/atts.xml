@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MoveTestView">
+        <attr name="TextColor" format="color"></attr>
+    </declare-styleable>
+    <declare-styleable name="CustomTextView">
+        <attr name="TitleText" format="string"></attr>
+        <attr name="TitleTextColor" format="color"></attr>
+        <attr name="TitleTextSize" format="dimension"></attr>
+        <attr name="image" format="reference"></attr>
+        <attr name="imageScaleType">
+            <enum name="fillXY" value="0"></enum>
+            <enum name="center" value="1"></enum>
+        </attr>
+    </declare-styleable>
+    <attr name="firstColor" format="color"></attr>
+    <attr name="secondColor" format="color"></attr>
+    <attr name="circleWidth" format="dimension"></attr>
+
+    <declare-styleable name="CustomProgreeView">
+        <attr name="firstColor"></attr>
+        <attr name="secondColor"></attr>
+        <attr name="circleWidth"></attr>
+        <attr name="speed" format="integer"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="CustomLabaView">
+        <attr name="firstColor"></attr>
+        <attr name="secondColor"></attr>
+        <attr name="circleWidth"></attr>
+        <attr name="dotCount" format="integer"></attr>
+        <attr name="splitSize" format="integer"></attr>
+        <attr name="bg" format="reference"></attr>
+    </declare-styleable>
+    <declare-styleable name="SlidingMenu">
+        <attr name="rightPadding" format="dimension"></attr>
+    </declare-styleable>
+</resources>

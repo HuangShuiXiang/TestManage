@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.testmanage.oldtest.card.cardModelView.ItemCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_item"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="6dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_name"
+            android:gravity="center"
+            android:text="sss"
+            >
+        </TextView>
+    </android.support.v7.widget.CardView>
+</com.testmanage.oldtest.card.cardModelView.ItemCardView>

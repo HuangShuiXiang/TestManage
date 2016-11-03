@@ -1,0 +1,55 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/common_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.testmanage.oldtest.view.SlidingMenu
+        android:id="@+id/slid_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        app:rightPadding="100dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/menu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@mipmap/meinv3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/btn_menu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="菜单" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@mipmap/meinv4">
+
+                <Button
+                    android:id="@+id/btn_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="切换菜单" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.testmanage.oldtest.view.SlidingMenu>
+</LinearLayout>
+
